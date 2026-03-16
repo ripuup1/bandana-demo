@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useRef, ReactNode } from 'react';
+import { useEffect, useRef, useState, ReactNode } from 'react';
 
 export default function ScrollReveal({
   children,
@@ -12,15 +12,20 @@ export default function ScrollReveal({
   delay?: number;
 }) {
   const ref = useRef<HTMLDivElement>(null);
+  const [ready, setReady] = useState(false);
 
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
 
+    // Mark as pending (hidden) only after client JS has mounted
+    setReady(true);
+
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
           setTimeout(() => {
+            el.classList.remove('pending');
             el.classList.add('visible');
           }, delay);
           observer.unobserve(el);
@@ -34,7 +39,7 @@ export default function ScrollReveal({
   }, [delay]);
 
   return (
-    <div ref={ref} className={`scroll-reveal ${className}`}>
+    <div ref={ref} className={`scroll-reveal ${ready ? 'pending' : ''} ${className}`}>
       {children}
     </div>
   );
