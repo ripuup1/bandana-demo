@@ -61,7 +61,7 @@ export default function OurStoryPage() {
           <ScrollReveal delay={200}>
             <div className="aspect-[4/5] overflow-hidden">
               <img
-                src="https://placehold.co/800x1000/E8DCC8/1a1a1a?text=Our+Story"
+                src="https://images.unsplash.com/photo-1533240332313-0db49b459ad6?w=800&h=1000&fit=crop&q=80"
                 alt="Our Story"
                 className="w-full h-full object-cover"
               />

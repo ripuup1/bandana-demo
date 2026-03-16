@@ -13,6 +13,9 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-screen flex flex-col justify-center bg-primary overflow-hidden grain">
+      <div className="absolute inset-0 z-0">
+        <img src="https://images.unsplash.com/photo-1501555088652-021faa106b9b?w=1920&h=1080&fit=crop&q=80" alt="" className="w-full h-full object-cover opacity-30" />
+      </div>
       <div className="relative z-10 max-w-site mx-auto px-6 md:px-12 pt-20">
         <div className={`transition-all duration-700 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <h1 className="font-headline text-warm text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase leading-[0.95] tracking-tight">

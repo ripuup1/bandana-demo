@@ -30,7 +30,7 @@ export default function DryShield() {
           <ScrollReveal>
             <div className="aspect-square overflow-hidden">
               <img
-                src="https://placehold.co/600x600/D4622B/ffffff?text=Dry+Shield"
+                src="https://images.unsplash.com/photo-1434389677669-e08b4cda3a00?w=600&h=600&fit=crop&q=80"
                 alt="The Dry Shield"
                 className="w-full h-full object-cover"
               />

@@ -8,10 +8,10 @@ const dogProducts = products.filter(p => p.category === 'dog');
 const adventurePack = products.find(p => p.slug === 'the-adventure-pack');
 
 const photoGrid = [
-  { src: 'https://placehold.co/600x400/4A5D3A/ffffff?text=Trail+Tested', caption: 'Trail tested' },
-  { src: 'https://placehold.co/400x600/D4622B/ffffff?text=Park+Approved', caption: 'Park approved' },
-  { src: 'https://placehold.co/600x400/1B2A4A/ffffff?text=Couch+Certified', caption: 'Couch certified' },
-  { src: 'https://placehold.co/400x600/E8DCC8/1a1a1a?text=Puddle+Proof', caption: 'Puddle proof' },
+  { src: 'https://images.unsplash.com/photo-1548199973-03cce0bbc87b?w=600&h=400&fit=crop&q=80', caption: 'Trail tested' },
+  { src: 'https://images.unsplash.com/photo-1530281700549-e82e7bf110d6?w=400&h=600&fit=crop&q=80', caption: 'Park approved' },
+  { src: 'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=600&h=400&fit=crop&q=80', caption: 'Couch certified' },
+  { src: 'https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=400&h=600&fit=crop&q=80', caption: 'Puddle proof' },
 ];
 
 export default function DogCollectionPage() {

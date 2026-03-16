@@ -37,7 +37,7 @@ export default function Features() {
           <ScrollReveal>
             <div className="aspect-[4/5] bg-secondary overflow-hidden">
               <img
-                src="https://placehold.co/800x1000/E8DCC8/1a1a1a?text=Lifestyle+Shot"
+                src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=1000&fit=crop&q=80"
                 alt="Lifestyle"
                 className="w-full h-full object-cover"
               />
