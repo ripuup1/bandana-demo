@@ -137,23 +137,23 @@ input[type="number"] {
   box-shadow: 0 0 0 2px rgba(212, 98, 43, 0.15);
 }
 
-/* Scroll reveal base */
-.scroll-reveal {
+/* Scroll reveal base — only hide when JS has loaded */
+.js-loaded .scroll-reveal {
   opacity: 0;
   transform: translateY(24px);
 }
 
-.scroll-reveal.visible {
+.js-loaded .scroll-reveal.visible {
   animation: fade-up 0.6s ease-out forwards;
 }
 
 /* Stagger children */
-.stagger-children .scroll-reveal:nth-child(1) { animation-delay: 0ms; }
-.stagger-children .scroll-reveal:nth-child(2) { animation-delay: 100ms; }
-.stagger-children .scroll-reveal:nth-child(3) { animation-delay: 200ms; }
-.stagger-children .scroll-reveal:nth-child(4) { animation-delay: 300ms; }
-.stagger-children .scroll-reveal:nth-child(5) { animation-delay: 400ms; }
-.stagger-children .scroll-reveal:nth-child(6) { animation-delay: 500ms; }
+.js-loaded .stagger-children .scroll-reveal:nth-child(1) { animation-delay: 0ms; }
+.js-loaded .stagger-children .scroll-reveal:nth-child(2) { animation-delay: 100ms; }
+.js-loaded .stagger-children .scroll-reveal:nth-child(3) { animation-delay: 200ms; }
+.js-loaded .stagger-children .scroll-reveal:nth-child(4) { animation-delay: 300ms; }
+.js-loaded .stagger-children .scroll-reveal:nth-child(5) { animation-delay: 400ms; }
+.js-loaded .stagger-children .scroll-reveal:nth-child(6) { animation-delay: 500ms; }
 
 /* Uses page fun layout */
 .uses-item {

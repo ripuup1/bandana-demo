@@ -27,6 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${oswald.variable} ${dmSans.variable}`}>
       <body className="font-body bg-warm text-primary antialiased">
+        <script dangerouslySetInnerHTML={{ __html: `document.body.classList.add('js-loaded')` }} />
         <CartProvider>
           <ToastProvider>
             <Navbar />
