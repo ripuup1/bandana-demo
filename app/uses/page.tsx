@@ -6,30 +6,30 @@ import { uses } from '@/data/uses';
 import ScrollReveal from '@/components/ui/ScrollReveal';
 
 const sizeClasses = [
-  'text-4xl md:text-6xl',
-  'text-2xl md:text-3xl',
-  'text-3xl md:text-5xl',
-  'text-lg md:text-2xl',
-  'text-4xl md:text-6xl',
-  'text-xl md:text-3xl',
-  'text-2xl md:text-4xl',
-  'text-3xl md:text-5xl',
-  'text-lg md:text-xl',
-  'text-4xl md:text-6xl',
-  'text-2xl md:text-3xl',
-  'text-3xl md:text-5xl',
-  'text-xl md:text-2xl',
-  'text-lg md:text-xl',
-  'text-3xl md:text-4xl',
-  'text-4xl md:text-6xl',
-  'text-2xl md:text-3xl',
-  'text-xl md:text-2xl',
-  'text-3xl md:text-5xl',
-  'text-2xl md:text-3xl',
-  'text-lg md:text-2xl',
-  'text-4xl md:text-5xl',
-  'text-xl md:text-3xl',
-  'text-3xl md:text-4xl',
+  'text-2xl sm:text-3xl md:text-6xl',
+  'text-xl sm:text-2xl md:text-3xl',
+  'text-2xl sm:text-3xl md:text-5xl',
+  'text-base sm:text-lg md:text-2xl',
+  'text-2xl sm:text-3xl md:text-6xl',
+  'text-lg sm:text-xl md:text-3xl',
+  'text-xl sm:text-2xl md:text-4xl',
+  'text-2xl sm:text-3xl md:text-5xl',
+  'text-base sm:text-lg md:text-xl',
+  'text-2xl sm:text-3xl md:text-6xl',
+  'text-xl sm:text-2xl md:text-3xl',
+  'text-2xl sm:text-3xl md:text-5xl',
+  'text-lg sm:text-xl md:text-2xl',
+  'text-base sm:text-lg md:text-xl',
+  'text-2xl sm:text-3xl md:text-4xl',
+  'text-2xl sm:text-3xl md:text-6xl',
+  'text-xl sm:text-2xl md:text-3xl',
+  'text-lg sm:text-xl md:text-2xl',
+  'text-2xl sm:text-3xl md:text-5xl',
+  'text-xl sm:text-2xl md:text-3xl',
+  'text-base sm:text-lg md:text-2xl',
+  'text-2xl sm:text-3xl md:text-5xl',
+  'text-lg sm:text-xl md:text-3xl',
+  'text-2xl sm:text-3xl md:text-4xl',
 ];
 
 const colorClasses = [
@@ -74,10 +74,10 @@ export default function UsesPage() {
       {/* Header */}
       <div className="relative bg-primary grain py-20 md:py-32">
         <div className="relative z-10 max-w-site mx-auto px-6 md:px-12">
-          <h1 className="font-headline text-warm text-5xl md:text-6xl lg:text-7xl uppercase tracking-tight leading-[0.95]">
+          <h1 className="font-headline text-warm text-3xl sm:text-4xl md:text-6xl lg:text-7xl uppercase tracking-tight leading-[0.95]">
             ONE BANDANA.
           </h1>
-          <h1 className="font-headline text-accent text-5xl md:text-6xl lg:text-7xl uppercase tracking-tight leading-[0.95] mt-2">
+          <h1 className="font-headline text-accent text-3xl sm:text-4xl md:text-6xl lg:text-7xl uppercase tracking-tight leading-[0.95] mt-2">
             OKAY, 24 USES.
           </h1>
         </div>
@@ -102,10 +102,10 @@ export default function UsesPage() {
       <div className="bg-accent py-16 md:py-24">
         <div className="max-w-site mx-auto px-6 md:px-12 text-center">
           <ScrollReveal>
-            <h2 className="font-headline text-warm text-4xl md:text-5xl lg:text-6xl uppercase tracking-tight">
+            <h2 className="font-headline text-warm text-2xl sm:text-3xl md:text-5xl lg:text-6xl uppercase tracking-tight">
               CONVINCED?
             </h2>
-            <h2 className="font-headline text-warm text-4xl md:text-5xl lg:text-6xl uppercase tracking-tight">
+            <h2 className="font-headline text-warm text-2xl sm:text-3xl md:text-5xl lg:text-6xl uppercase tracking-tight">
               GET YOURS.
             </h2>
             <Link

@@ -4,12 +4,14 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-feature-settings: 'kern' 1;
   background-color: #FAFAF7;
   color: #1A1A1A;
+  overflow-x: hidden;
 }
 
 /* Grain texture overlay */

@@ -73,7 +73,7 @@ export default function PaymentForm() {
           </div>
           <input type="text" placeholder="Address line 1" className="w-full h-12 px-4 border border-primary/15 font-body text-sm placeholder:text-muted focus:outline-none focus:border-accent focus:shadow-[0_0_0_2px_rgba(212,98,43,0.15)] transition-all duration-200" />
           <input type="text" placeholder="Address line 2 (optional)" className="w-full h-12 px-4 border border-primary/15 font-body text-sm placeholder:text-muted focus:outline-none focus:border-accent focus:shadow-[0_0_0_2px_rgba(212,98,43,0.15)] transition-all duration-200" />
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
             <input type="text" placeholder="City" className="w-full h-12 px-4 border border-primary/15 font-body text-sm placeholder:text-muted focus:outline-none focus:border-accent focus:shadow-[0_0_0_2px_rgba(212,98,43,0.15)] transition-all duration-200" />
             <input type="text" placeholder="State" className="w-full h-12 px-4 border border-primary/15 font-body text-sm placeholder:text-muted focus:outline-none focus:border-accent focus:shadow-[0_0_0_2px_rgba(212,98,43,0.15)] transition-all duration-200" />
             <input type="text" placeholder="ZIP" className="w-full h-12 px-4 border border-primary/15 font-body text-sm placeholder:text-muted focus:outline-none focus:border-accent focus:shadow-[0_0_0_2px_rgba(212,98,43,0.15)] transition-all duration-200" />

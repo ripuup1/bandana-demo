@@ -18,10 +18,10 @@ export default function Hero() {
       </div>
       <div className="relative z-10 max-w-site mx-auto px-6 md:px-12 pt-20">
         <div className={`transition-all duration-700 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          <h1 className="font-headline text-warm text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase leading-[0.95] tracking-tight">
+          <h1 className="font-headline text-warm text-3xl sm:text-5xl md:text-7xl lg:text-8xl uppercase leading-[0.95] tracking-tight">
             ONE BANDANA.
           </h1>
-          <h1 className={`font-headline text-warm text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase leading-[0.95] tracking-tight mt-2 transition-all duration-700 delay-150 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+          <h1 className={`font-headline text-warm text-3xl sm:text-5xl md:text-7xl lg:text-8xl uppercase leading-[0.95] tracking-tight mt-2 transition-all duration-700 delay-150 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             A THOUSAND USES.
           </h1>
         </div>

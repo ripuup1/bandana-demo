@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer className="bg-primary text-warm/70 font-body">
       <div className="max-w-site mx-auto px-6 md:px-12 py-16 md:py-20">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 md:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <Link href="/" className="font-headline text-warm text-2xl uppercase tracking-[0.08em]">
               BANDERA

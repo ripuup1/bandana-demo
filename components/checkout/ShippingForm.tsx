@@ -37,7 +37,7 @@ export default function ShippingForm() {
           placeholder="Address line 2 (optional)"
           className="w-full h-12 px-4 border border-primary/15 font-body text-sm placeholder:text-muted focus:outline-none focus:border-accent focus:shadow-[0_0_0_2px_rgba(212,98,43,0.15)] transition-all duration-200"
         />
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
           <input
             type="text"
             placeholder="City"
@@ -55,7 +55,7 @@ export default function ShippingForm() {
           <input
             type="text"
             placeholder="ZIP code"
-            className="w-full h-12 px-4 border border-primary/15 font-body text-sm placeholder:text-muted focus:outline-none focus:border-accent focus:shadow-[0_0_0_2px_rgba(212,98,43,0.15)] transition-all duration-200 col-span-2 md:col-span-1"
+            className="w-full h-12 px-4 border border-primary/15 font-body text-sm placeholder:text-muted focus:outline-none focus:border-accent focus:shadow-[0_0_0_2px_rgba(212,98,43,0.15)] transition-all duration-200 sm:col-span-2 md:col-span-1"
           />
         </div>
         <input
